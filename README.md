@@ -27,6 +27,6 @@ func main() {
         log.Fatalf("error while retrieving zones list: %s\n", err)
     }
 
-    fmt.Println(servzonesers)
+    fmt.Println(zones)
 }
 ```
